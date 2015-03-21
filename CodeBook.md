@@ -23,10 +23,10 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ##Input
 
-* trianX, trainY, testX, testY, subjectTrain and subjectTest contain the data read in from the downloaded text files.
+* 'trianX', trainY, testX, testY, subjectTrain and subjectTest contain the data read in from the downloaded text files.
 * dataX, dataY and subjectData merge the previous datasets for analysis using the std and mean variables.
 * features contains the correct names for the dataX dataset, which are applied to the column names stored in stdMeanFeatures, a numeric vector used to extract the desired data.
-* A similar approach is taken with activity names through the Activities variable.
+* A similar approach is taken with activity names through the activities variable.
 * singleData merges dataX, dataY and subjectData in a big dataset.
 * Finally, dataAverages contains the relevant averages which will be later stored in a text file. ddply() function from the plyr package is used to apply colMeans()function.
  
