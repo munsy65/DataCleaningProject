@@ -23,7 +23,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ##Input
 
-* 'trianX', trainY, testX, testY, subjectTrain and subjectTest contain the data read in from the downloaded text files.
+* trianX, trainY, testX, testY, subjectTrain and subjectTest contain the data read in from the downloaded text files.
 * dataX, dataY and subjectData merge the previous datasets for analysis using the std and mean variables.
 * features contains the correct names for the dataX dataset, which are applied to the column names stored in stdMeanFeatures, a numeric vector used to extract the desired data.
 * A similar approach is taken with activity names through the activities variable.
